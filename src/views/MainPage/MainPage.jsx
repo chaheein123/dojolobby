@@ -1,4 +1,7 @@
 import React from "react";
+
+import { HeaderComponent } from "../../components/HeaderComponent/HeaderComponent";
+
 import "./MainPage.scss";
 
 export default class MainPage extends React.Component {
@@ -10,6 +13,7 @@ export default class MainPage extends React.Component {
   render() {
     return (
       <div>
+        <HeaderComponent />
         Main Page!!!
       </div>
     )

@@ -1,17 +1,17 @@
 .HeaderComponent {
-  border: 1px black solid;
-  height: 3.2rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.527);
+  height: 3.6rem;
   top: 0;
   position: sticky;
-  background-color: red;
   display: flex;
   align-items: center;
   padding: 0 5rem;
 
   .header-left {
     .dojo-logo {
-      top: 0;
-      height: 100%;
+      height: 74%;
+      top: 50%;
+      transform: translateY(-50%);
       position: absolute;
       cursor: pointer;
     }
@@ -20,11 +20,11 @@
   .header-right {
     margin-right: 0;
     margin-left: auto;
-    background-color: yellow;
     .header-links {
       margin: 0 15px;
       cursor: pointer;
-      font-size: 1.7rem;
+      font-size: 1.2rem;
+      color: black;
     }
   }
 }

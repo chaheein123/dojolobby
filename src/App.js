@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import MainPage from "./views/MainPage/MainPage";
-import { HeaderComponent } from "./components/HeaderComponent/HeaderComponent";
 
 import './App.scss';
 
@@ -11,9 +10,8 @@ function App() {
     <Router>
       <div className="App" >
         {/* Routing here */}
-        <HeaderComponent />
         <Switch>
-          <Route path="/" component={MainPage}></Route>
+          <Route exact path="/" component={MainPage}></Route>
         </Switch>
       </div >
     </Router >
