@@ -1,21 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-import MainPage from "./views/MainPage/MainPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { RootPage } from "./views/RootPage/RootPage";
 
 import './App.scss';
 
 function App() {
   return (
-    <Router>
-      <div className="App" >
-        {/* Routing here */}
-        <Switch>
-          <Route exact path="/" component={MainPage}></Route>
-        </Switch>
-      </div >
-    </Router >
+    <div className="App" >
+      {/* Routing here */}
+      <Router>
+        <Route exact path="/" component={RootPage} />
+      </Router>
+    </div >
   );
-}
+};
 
 export default App;
