@@ -9,7 +9,7 @@ function App() {
     <div className="App" >
       {/* Routing here */}
       {/* <Router>
-        <Route exact path="/" component={RootPage} />
+        <Route path="/" component={RootPage} />
       </Router> */}
       <RootPage />
     </div >

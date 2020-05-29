@@ -5,10 +5,10 @@ import { HeaderComponent } from "../../components/HeaderComponent/HeaderComponen
 import MainPage from "../MainPage/MainPage";
 import ProjectPage from "../ProjectPage/ProjectPage";
 
-export const RootPage = () => {
+export const RootPage = (props) => {
+
   return (
     <Router>
-      {/* <HeaderComponent /> */}
       <Route path="/" component={HeaderComponent} />
       <Switch>
         <Route exact path="/" component={MainPage} />

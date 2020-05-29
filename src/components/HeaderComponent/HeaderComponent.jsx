@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "./HeaderComponent.scss";
 
 export const HeaderComponent = (props) => {
-
   return (
     <div className="HeaderComponent">
 
