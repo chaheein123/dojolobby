@@ -2460,6 +2460,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap-scss@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-scss/-/bootstrap-scss-4.5.0.tgz#c1e48d4050dec7885cc9acfc61d3df7827a134ca"
+  integrity sha512-6vCW3JBfOW7v9EQwyV0kWdEyvk2hf7U8TIojRgz19/nJoJGe8BQa1L/Tk7B0wmKEqHR/lA93Lhp+dLRphZt3vg==
+
 bootstrap@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.0.tgz#97d9dbcb5a8972f8722c9962483543b907d9b9ec"
@@ -2495,6 +2500,11 @@ braces@~3.0.2:
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   dependencies:
     fill-range "^7.0.1"
+
+breakpoint-sass@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/breakpoint-sass/-/breakpoint-sass-2.7.1.tgz#8ef6c4744dcc25ba83d969b6c9a17e5daa29980a"
+  integrity sha1-jvbEdE3MJbqD2Wm2yaF+XaopmAo=
 
 brorand@^1.0.1:
   version "1.1.0"
