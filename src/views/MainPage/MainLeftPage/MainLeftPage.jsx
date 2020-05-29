@@ -6,7 +6,6 @@ export const MainLeftPage = () => {
   return (
     <div className="MainLeftPage">
       lln
-
     </div>
   )
 }

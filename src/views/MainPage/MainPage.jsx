@@ -18,16 +18,16 @@ export default class MainPage extends React.Component {
   render() {
     return (
       <div className="MainPage">
-        <Container fluid>
-          <Row>
-            <Col md={3}>
+        <Container>
+          <Row md={2} sm={1}>
+            <Col lg={{span:3, order:1}} md={{order:1,span:4}} sm={{order:2}}>
               <MainLeftPage />
             </Col>
-            <Col md={6}>
-              <MainMiddlePage />
-            </Col>
-            <Col md={3}>
+            <Col lg={{span:3, order:12}} md={{order:3, span:4}} sm={{order:3}}>
               <MainRightPage />
+            </Col>
+            <Col lg={{span:6, order:6}} md={{order:2, span:8}} sm={{order:1}}>
+              <MainMiddlePage />
             </Col>
           </Row>
         </Container>

@@ -1,7 +1,18 @@
+@import "../../../utils/globalbs.scss";
+
 .MainLeftPage{
-  // background-color: red;
-  // height: 100%;
-  // display: inline-block;
+  position: sticky;
   border: 1px black solid;
+  top: 80px;
+
+  @include media-breakpoint-down(md){
+    top: 80px;
+    position: fixed;
+  }
+
+  @include media-breakpoint-down(sm){
+    position: static;
+    // top: 0;
+  }
 
 }
