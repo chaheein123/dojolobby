@@ -1,5 +1,5 @@
 .HeaderComponent {
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.527);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.527);
   height: 3.6rem;
   top: 0;
   position: sticky;
@@ -35,7 +35,7 @@
       }
     }
     .header-links-wrappers-bottomborder {
-      border-bottom: 1px rgb(71, 208, 253) solid;
+      border-bottom: 2px rgb(42, 62, 126) solid;
     }
   }
 }

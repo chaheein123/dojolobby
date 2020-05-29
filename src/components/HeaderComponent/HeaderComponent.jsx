@@ -14,7 +14,8 @@ export const HeaderComponent = (props) => {
           to={"/"}
         >
           <img
-            src="/images/CodingDojoLogo.png" className="dojo-logo"
+            src="/images/CodingDojoLogo.png" 
+            className="dojo-logo"
             alt="Dojo logo"
           />
         </Link>

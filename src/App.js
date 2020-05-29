@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App" >
       {/* Routing here */}
-      <Router>
+      {/* <Router>
         <Route exact path="/" component={RootPage} />
-      </Router>
+      </Router> */}
+      <RootPage />
     </div >
   );
 };
