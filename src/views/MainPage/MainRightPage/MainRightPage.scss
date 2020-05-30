@@ -6,12 +6,16 @@
   position: sticky;
 
   @include media-breakpoint-down(md){
-    top: 50%;
+    top: 300px;
     position: fixed;
   }
 
   @include media-breakpoint-down(sm){
     position: static;
+  }
+
+  @include media-breakpoint-down(xs) {
+    display: none;
   }
 
 }
