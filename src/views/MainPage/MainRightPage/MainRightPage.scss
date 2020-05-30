@@ -6,8 +6,9 @@
   position: sticky;
 
   @include media-breakpoint-down(md){
-    top: 300px;
-    position: fixed;
+    // yoyoyo
+    position: sticky;
+    top: 80px;
   }
 
   @include media-breakpoint-down(sm){
