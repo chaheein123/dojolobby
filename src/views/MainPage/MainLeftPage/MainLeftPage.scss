@@ -1,12 +1,14 @@
 @import "../../../utils/globalbs.scss";
+@import "../../../mixins.scss";
 
 .MainLeftPage{
-  border: 1px black solid;
   position: sticky;
-  top: 3.6rem;
+  top: 5.5rem;
   overflow: scroll;
-  // min-height: 300px;
   max-height: 500px;
 
+  // @include view-pages
+  // background-color: blue;
+  padding: 0 1rem 1rem 1rem;
 
 };
