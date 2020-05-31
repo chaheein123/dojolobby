@@ -1,46 +1,17 @@
 @import "../../utils/globalbs.scss";
 
 .MainPage{
-  margin-top: 80px;
+  margin-top: 3.6rem;
   position: relative;
   background-color: yellow;
-  display: flex;
   border: 1px black solid;
   width: 100vw;
 
-
-
-  @include media-breakpoint-up(xs){
-    flex-direction: row
-  }
-  
-
-
-
-
+  @include media-breakpoint-up(lg){
+    // .lg-sticky {
+    //   display: flex;
+    //   align-items: flex-start;
+    // }
+  };
 
 }
-
-@include media-breakpoint-up(md){
-
-  // .main-left-wrapper {
-  //   background-color: pink;
-  //   max-height: 340px;
-  // }
-
-  // .main-right-wrapper {
-  //   background-color: red;
-  //   max-height: 1000px;
-  //   height: 1000px;
-  //   display: inline-block;
-  // }
-
-  // .main-middle-wrapper {
-  //   background-color: orange;
-  //   height: 300px;
-  // }
-};
-
-// @include media-breakpoint-up(xs){
-//   flex-direction: row
-// }

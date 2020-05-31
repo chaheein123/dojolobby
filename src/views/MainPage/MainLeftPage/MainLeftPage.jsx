@@ -7,8 +7,7 @@ import "./MainLeftPage.scss";
 export const MainLeftPage = () => {
   return (
     <div className="MainLeftPage">
-      {/* <TopTenComponent /> */}
-      mainleft
+      <TopTenComponent />
     </div>
   )
 };
