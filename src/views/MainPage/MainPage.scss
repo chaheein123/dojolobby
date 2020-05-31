@@ -1,17 +1,14 @@
 @import "../../utils/globalbs.scss";
 
 .MainPage{
-  margin-top: 3.6rem;
+  // margin-top: 3.6rem;
   position: relative;
-  background-color: yellow;
-  border: 1px black solid;
   width: 100vw;
+  top: 5.5rem;
+  background-color: whitesmoke;;
 
   @include media-breakpoint-up(lg){
-    // .lg-sticky {
-    //   display: flex;
-    //   align-items: flex-start;
-    // }
+    
   };
 
 }

@@ -1,0 +1,8 @@
+@import "../../mixins.scss";
+
+.TopPostsComponent {
+  // margin-top: 2rem;
+  // margin: 200px;
+  @include view-pages;
+  font-size: 0.8rem;
+}
