@@ -1,6 +1,16 @@
+@import "../../../utils/globalbs.scss";
+
 .MainMiddlePage{
-  // background-color: yellow;
-  // display: inline-block;
+
+  // border: 1px black solid;
+  // height: 2000px;
+  flex: 1;
   border: 1px black solid;
-  height: 2000px;
+  background-color: green;
+
+
+  @include media-breakpoint-down(md){
+    // order:3
+    flex: 2;
+  };
 }

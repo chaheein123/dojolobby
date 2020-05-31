@@ -3,24 +3,44 @@
 .MainPage{
   margin-top: 80px;
   position: relative;
+  background-color: yellow;
+  display: flex;
+  border: 1px black solid;
+  width: 100vw;
+
+
+
+  @include media-breakpoint-up(xs){
+    flex-direction: row
+  }
+  
+
+
+
+
+
 }
 
-@include media-breakpoint-down(md){
+@include media-breakpoint-up(md){
 
-  .main-left-wrapper {
-    background-color: pink;
-    max-height: 340px;
-  }
+  // .main-left-wrapper {
+  //   background-color: pink;
+  //   max-height: 340px;
+  // }
 
-  .main-right-wrapper {
-    background-color: red;
-    max-height: 1000px;
-    height: 1000px;
-    display: inline-block;
-  }
+  // .main-right-wrapper {
+  //   background-color: red;
+  //   max-height: 1000px;
+  //   height: 1000px;
+  //   display: inline-block;
+  // }
 
-  .main-middle-wrapper {
-    background-color: orange;
-    height: 300px;
-  }
+  // .main-middle-wrapper {
+  //   background-color: orange;
+  //   height: 300px;
+  // }
 };
+
+// @include media-breakpoint-up(xs){
+//   flex-direction: row
+// }

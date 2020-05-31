@@ -22,7 +22,7 @@ export default class MainPage extends React.Component {
   render() {
     return (
       <div className="MainPage">
-        <Container>
+        {/* <Container>
           <Row md={2} sm={1}>
             <Col lg={{span:3, order:1}} md={{order:1,span:4}} sm={{order:2}} className="main-left-wrapper">
               <MainLeftPage />
@@ -34,7 +34,10 @@ export default class MainPage extends React.Component {
               <MainMiddlePage/>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
+        <MainLeftPage />
+        <MainMiddlePage />
+        <MainRightPage />
       </div>
     )
   };
