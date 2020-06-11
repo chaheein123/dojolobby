@@ -5,6 +5,10 @@
   // border: 1px rgb(71, 68, 68) solid;
   // box-shadow: 0 0 1px rgba(65, 63, 63, 0.562);
   background-color: white;
+  @include media-breakpoint-down(sm){
+    margin-top: 1.5rem;
+  };
 
-  @include view-pages
+  @include view-pages;
+
 }

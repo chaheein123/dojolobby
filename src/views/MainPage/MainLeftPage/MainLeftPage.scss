@@ -5,10 +5,13 @@
   position: sticky;
   top: 5.5rem;
   overflow: scroll;
-  max-height: 500px;
-
-  // @include view-pages
-  // background-color: blue;
+  max-height: 90vh;
   padding: 0 1px 1px 1px;
 
+
+  @include media-breakpoint-down(sm){
+    overflow: visible;
+    max-height: 1500px;
+
+  };
 };
