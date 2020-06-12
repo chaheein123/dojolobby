@@ -1,10 +1,7 @@
 @import "../../mixins.scss";
 
 .TopTenComponent {
-  // max-height: 340px;
-  // overflow: scroll;
-  // background-color: pink;
   @include view-pages;
   font-size: 0.8rem;
-  margin-top: 1px;
+  margin-bottom: 1px;
 }

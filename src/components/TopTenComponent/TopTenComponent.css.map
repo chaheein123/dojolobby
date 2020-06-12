@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAC;ECDf,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,0BAA0B;EAC9C,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EDAlB,SAAS,EAAE,MAAM;EACjB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "TopTenComponent.scss",
+        "../../mixins.scss"
+    ],
+    "names": [],
+    "file": "TopTenComponent.css"
+}

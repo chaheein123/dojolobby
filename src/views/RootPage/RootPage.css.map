@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EAER,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,UAAU;CAE7B",
+    "sources": [
+        "RootPage.scss"
+    ],
+    "names": [],
+    "file": "RootPage.css"
+}

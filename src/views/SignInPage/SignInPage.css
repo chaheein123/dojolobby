@@ -1,0 +1,40 @@
+.SignInPage {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.SignInPage .signin-box {
+  background-color: white;
+  position: absolute;
+  display: inline-block;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 1.8rem 3.7rem 2.5rem 3.7rem;
+  width: 400px;
+  border-radius: 13px;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.315);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.315);
+}
+
+.SignInPage .signin-box .signin-textfields {
+  margin-bottom: 1rem;
+}
+
+.SignInPage .signin-box .signin-forgot {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.SignInPage .signin-box .signin-dont {
+  margin: 14px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.637);
+}
+/*# sourceMappingURL=SignInPage.css.map */

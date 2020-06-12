@@ -1,0 +1,50 @@
+.HeaderComponent {
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.527);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0.527);
+  height: 3.6rem;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5rem;
+  background-color: white;
+  z-index: 5;
+}
+
+.HeaderComponent .header-left .dojo-logo {
+  height: 68%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  cursor: pointer;
+}
+
+.HeaderComponent .header-right {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.HeaderComponent .header-right .header-links-wrappers {
+  display: inline-block;
+  height: 3.6rem;
+  padding: 0 26px;
+}
+
+.HeaderComponent .header-right .header-links-wrappers .header-links {
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+  color: black;
+  display: inline-block;
+}
+
+.HeaderComponent .header-right .header-links-wrappers-bottomborder {
+  border-bottom: 2px #2a3e7e solid;
+}
+/*# sourceMappingURL=HeaderComponent.css.map */

@@ -1,0 +1,7 @@
+@import "../../mixins.scss";
+
+.TopProjectsComponent {
+  margin-bottom:1.5rem;
+  @include view-pages;
+
+}

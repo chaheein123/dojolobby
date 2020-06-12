@@ -18,7 +18,14 @@ let topPosts = [
   {id: 12, createdBy: "Corey Chae", title: "Why I chose programming"},
   {id: 19, createdBy: "Oliver Chen", title: "How I mastered Java"},
   {id:200, createdBy: "Pete Kim", title: "Facebook internship posting is up"},
-]
+];
+
+let announcements = [
+  {createdBy: "Pete Kim", title: "There will be no classes on Saturday"},
+  {createdBy: "Sadie Flick", title: "Sports day on Thursday"},
+  {createdBy: "Admim", title: "Tuition due on December 30th"},
+  {createdBy: "Admin", title: "Welcome new data science class!"},
+];
 
 let topProjects = [ 
   {place: 1, prize: 500, ownerId: 7, firstName: "Ian", lastName: "Cha"},
@@ -37,4 +44,5 @@ export {
   topPosts,
   topProjects,
   topTA,
+  announcements,
 };

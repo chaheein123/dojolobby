@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,qBAAqB,CAAC;ECDpB,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,0BAA0B;EAC9C,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EDElB,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,MAAM;CACtB",
+    "sources": [
+        "AnnoucementComponent.scss",
+        "../../mixins.scss"
+    ],
+    "names": [],
+    "file": "AnnoucementComponent.css"
+}
