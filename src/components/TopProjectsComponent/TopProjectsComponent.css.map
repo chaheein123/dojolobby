@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,qBAAqB,CAAC;EACpB,aAAa,EAAC,MAAM;ECFpB,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,0BAA0B;EAC9C,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;CDEnB",
+    "sources": [
+        "TopProjectsComponent.scss",
+        "../../mixins.scss"
+    ],
+    "names": [],
+    "file": "TopProjectsComponent.css"
+}
