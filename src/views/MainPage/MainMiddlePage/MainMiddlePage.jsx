@@ -47,6 +47,25 @@ export const MainMiddlePage = () => {
       <p>sdfsdf</p>
       <p>sdfsdf</p>
       <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>sdfsdf</p>
+      <p>abc</p>
     </div>
   )
 }
