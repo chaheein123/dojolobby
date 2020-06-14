@@ -1,0 +1,17 @@
+@import "../../utils/globalbs.scss";
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  @include media-breakpoint-up(md){
+    // position: relative;
+    display: none;
+    
+
+  }
+
+
+
+}
