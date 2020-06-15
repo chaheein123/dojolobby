@@ -5,13 +5,11 @@
   position: sticky;
   top: 5.5rem;
   overflow: scroll;
-  max-height: 83vh;
   padding: 0 1px 1px 1px;
-
+  height: calc(100vh - 5.5rem);
 
   @include media-breakpoint-down(sm){
     overflow: visible;
-    max-height: 1500px;
-
+    height: auto;
   };
 };

@@ -1,15 +1,13 @@
 @import "../../utils/globalbs.scss";
 
 .MainPage{
-  // margin-top: 3.6rem;
   position: relative;
   width: 100vw;
   top: 5.5rem;
   background-color: whitesmoke;
   padding-bottom: 1.5rem;
 
-
-  @include media-breakpoint-up(lg){
-    
-  };
+  @include media-breakpoint-down(sm){
+    padding-bottom: 67px;
+  }
 };

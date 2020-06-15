@@ -1,4 +1,27 @@
+@import "../../utils/globalbs.scss";
+
 .HeaderComponent {
+
+  @include media-breakpoint-down(sm){
+    height: 2.95rem;
+    .header-right {
+      display: none;
+    };
+    .header-left {
+      .dojo-logo {
+        height: 68%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        cursor: pointer;
+      }
+    }
+  };
+
+  @include media-breakpoint-down(xs){
+    padding: 0 2rem;
+  }
+
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.527);
   height: 3.6rem;
   top: 0;
@@ -42,4 +65,4 @@
       border-bottom: 2px rgb(42, 62, 126) solid;
     }
   }
-}
+};
