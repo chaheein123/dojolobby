@@ -7,7 +7,7 @@ import "./TopTenComponent.scss";
 export const TopTenComponent = () => {
   return (
     <div className="TopTenComponent component-card">
-      <h6>Trending tags</h6>
+      <h5>Trending tags</h5>
       {
         top10tags.map((comment,index) => (
           <div key={index}>

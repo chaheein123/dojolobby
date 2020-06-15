@@ -8,7 +8,7 @@ export const AnnoucementComponent = () => {
   
   return (
     <div className="AnnoucementComponent">
-      <h6>Announcements</h6>
+      <h5>Announcements</h5>
       {
         announcements.map((post,index) => (
           <div key={index}>
