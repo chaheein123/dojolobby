@@ -8,7 +8,7 @@ export const TopProjectsComponent = () => {
 
   return (
     <div className="TopProjectsComponent">
-      <h6>Top projects</h6>
+      <h5>Top projects</h5>
       <p>wefwefwf</p>
       <p>wefwefwf</p>
       <p>wefwefwf</p>
