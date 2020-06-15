@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import RestoreIcon from '@material-ui/icons/Restore';
@@ -8,28 +8,24 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./BottomNavComponent.scss";
 
 export default function SimpleBottomNavigation(props) {
-  // const [value, setValue] = React.useState(0);
   const routeOptions = ["", "projects", "signin"];
-  let routeState = routeOptions.indexOf(props.location.pathname.split("/")[1]) !== -1 ? 
-    routeOptions.indexOf(props.location.pathname.split("/")[1]) : 2
-  // console.log(routeState, "산소부족해이");
+  // let [value, setValue] = React.useState(routeOptions.indexOf(props.location.pathname.split("/")[1]) !== -1 ? 
+  // routeOptions.indexOf(props.location.pathname.split("/")[1]) : 2);
 
-  // console.log(routeState, "동창", props.location.pathname.split("/"));
+  let [value, setValue] = React.useState(0);
 
-  const [value, setValue] = React.useState(routeState);
-  
-  // setValue(1);
+  useEffect(() => {
+    setValue(routeOptions.indexOf(props.location.pathname.split("/")[1]) !== -1 ? 
+    routeOptions.indexOf(props.location.pathname.split("/")[1]) : 2);
+  });
 
   return (
     <div className="bottom-nav">
       <BottomNavigation
-        value={routeState}
-        // onChange={(event, newValue) => {
-        //   setValue(newValue);
+        value={value}
+        // onChange={() => {
+        //   setValue(value);
         // }}
-        onChange={() => {
-          setValue(routeState);
-        }}
         showLabels
         className="bottom-nav"
       >

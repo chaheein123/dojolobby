@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
@@ -17,8 +18,10 @@ const SignInPage = () => {
             Forgot password?
           </p>
           <p className="signin-dont">
-            Don't have an account? 
-            <span className="signin-signup"> Sign up</span>
+            Don't have an account? <span> </span>
+            <Link to={"/signup"}>
+              Sign up
+            </Link>
           </p>
           <Button color="primary" variant="contained" fullWidth>SIGN IN</Button>
       </div>
