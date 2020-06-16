@@ -44,7 +44,7 @@ const AnnoucementComponent = () => {
                 { 
                   post.title.length > 140 ?
                     // <AnnouncementWrapper title={post.title} createdAt={post.createdAt}/>
-                    <div>
+                    <div className="hover-effect">
                       {post.title.substring(0, 135) + ". . ."} 
                     
                       <span style={{color: "rgba(0, 0, 0, 0.280)", fontSize: "0.75rem"}}>
@@ -52,7 +52,7 @@ const AnnoucementComponent = () => {
                       </span>
                     </div> 
                     :
-                    <div>
+                    <div className="hover-effect">
                       {post.title}
                       <span style={{color: "rgba(0, 0, 0, 0.280)", fontSize: "0.75rem"}}>
                         {" - " + post.createdAt}

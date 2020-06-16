@@ -11,6 +11,11 @@
     color: rgba(42, 42, 42, 0.787);
     font-family: 'Lato', sans-serif;
   }
+  .hover-effect {
+    &:hover {
+      color: skyblue;
+    }
+  }
 };
 
 @mixin view-pages-announcement {
@@ -25,5 +30,11 @@
   .main-font {
     color: rgba(42, 42, 42, 0.787);
     font-family: 'Lato', sans-serif;
+  }
+  .hover-effect {
+    &:hover {
+      // color: rgba(0, 0, 0, 0.322);
+      color: rgb(128, 0, 128);
+    }
   }
 }
