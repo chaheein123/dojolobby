@@ -3,9 +3,27 @@
   box-shadow: 0 0 1px rgba(122, 113, 113, 0.582);
   padding: 1rem;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 0.96rem;
   h5 {
     font-size: 1.15rem;
+  }
+  .main-font {
+    color: rgba(42, 42, 42, 0.787);
+    font-family: 'Lato', sans-serif;
+  }
+};
 
+@mixin view-pages-announcement {
+  background-color: white;
+  box-shadow: 0 0 1px rgba(122, 113, 113, 0.582);
+  padding: 1rem 0rem 0rem 1rem;
+  border-radius: 5px;
+  font-size: 0.96rem;
+  h5 {
+    font-size: 1.15rem;
+  }
+  .main-font {
+    color: rgba(42, 42, 42, 0.787);
+    font-family: 'Lato', sans-serif;
   }
 }

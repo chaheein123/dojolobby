@@ -39,7 +39,7 @@ export const HeaderComponent = (props) => {
           </Link>
         </div>
 
-        <div className={props.history.location.pathname === "/signin" ? "header-links-wrappers header-links-wrappers-bottomborder" : "header-links-wrappers"}>
+        <div className={props.history.location.pathname === "/signin" || props.history.location.pathname === "/signup" ? "header-links-wrappers header-links-wrappers-bottomborder" : "header-links-wrappers"}>
           <Link
             className="Links"
             to={"/signin"}

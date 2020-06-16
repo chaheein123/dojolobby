@@ -1,13 +1,22 @@
 @import "../../mixins.scss";
 
 .AnnoucementComponent {
-  // margin-top: 2rem;
-  // margin: 200px;
-  @include view-pages;
-  // font-size: 0.8rem;
+  @include view-pages-announcement;
   margin-top: 1px;
   margin-bottom: 1.5rem;
-  height: 200px;
-  max-height: 200px;
-  overflow: scroll;
+
+  .annoucement-wrapper {
+    margin-bottom: 0.1rem;
+    margin-left: 1rem;
+    // cursor: default;
+  }
+
+  .announcement-component-scroll {
+    height: 155px;
+    max-height: 155px;
+    overflow: scroll;
+    width: 100%;
+    padding-right: 1rem;
+  }
+
 };

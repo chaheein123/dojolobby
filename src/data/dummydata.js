@@ -21,10 +21,14 @@ let topPosts = [
 ];
 
 let announcements = [
-  {createdBy: "Pete Kim", title: "There will be no classes on Saturday"},
-  {createdBy: "Sadie Flick", title: "Sports day on Thursday"},
-  {createdBy: "Admim", title: "Tuition due on December 30th"},
-  {createdBy: "Admin", title: "Welcome new data science class!"},
+  {createdBy: "Pete Kim", title: "There will be no classes on Saturday", createdAt: "1 hour(s) ago"},
+  {createdBy: "Sadie Flick", title: "Sports day on Thursday", createdAt: "7 day(s) ago"},
+  {createdBy: "Admim", title: "Tuition due on December 30th", createdAt: "10 day(s) ago"},
+  {createdBy: "Admin", title: "Welcome new data science class!", createdAt: "1 week(s) ago"},
+  {createdBy: "Admin", title: "Welcome, Angela Yu is the new instructor", createdAt: "2 week(s) ago"},
+  {createdBy: "Admin", title: "Cleaning out the refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors, refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doorsrefrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors", createdAt: "1 month(s) ago"},
+  {createdBy: "Admin", title: "Cleaning out the refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors, refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doorsrefrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors", createdAt: "1 month(s) ago"},
+  {createdBy: "Admin", title: "Welcome, Angela Yu is the new instructor", createdAt: "1 month(s) ago"},
 ];
 
 let topProjects = [ 
