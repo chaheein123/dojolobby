@@ -21,16 +21,21 @@ let topPosts = [
 ];
 
 let announcements = [
-  {createdBy: "Pete Kim", title: "There will be no classes on Saturday"},
-  {createdBy: "Sadie Flick", title: "Sports day on Thursday"},
-  {createdBy: "Admim", title: "Tuition due on December 30th"},
-  {createdBy: "Admin", title: "Welcome new data science class!"},
+  {createdBy: "Pete Kim", title: "There will be no classes on Saturday", createdAt: "1 hour(s) ago"},
+  {createdBy: "Sadie Flick", title: "Sports day on Thursday", createdAt: "7 day(s) ago"},
+  {createdBy: "Admim", title: "Tuition due on December 30th", createdAt: "10 day(s) ago"},
+  {createdBy: "Admin", title: "Welcome new data science class!", createdAt: "1 week(s) ago"},
+  {createdBy: "Admin", title: "Welcome, Angela Yu is the new instructor", createdAt: "2 week(s) ago"},
+  {createdBy: "Admin", title: "Cleaning out the refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors, refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doorsrefrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors", createdAt: "1 month(s) ago"},
+  {createdBy: "Admin", title: "Cleaning out the refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors, refrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doorsrefrigerators, bathrooms, classrooms, computers, windows, janitors, cars, desktops, monitors, doors", createdAt: "1 month(s) ago"},
+  {createdBy: "Admin", title: "Welcome, Angela Yu is the new instructor", createdAt: "1 month(s) ago"},
 ];
 
 let topProjects = [ 
-  {place: 1, prize: 500, ownerId: 7, firstName: "Ian", lastName: "Cha"},
-  {place: 2, prize: 300, ownerId: 121, firstName: "Peter", lastName: "Parker"},
-  {place: 3, prize: 100, ownerId: 222, firstName: "Johnathan", lastName: "Jen"},
+  {id: 221, place: 1, prize: 500, ownerId: 7, firstName: "Ian", lastName: "Cha", title: "Minder", technologies: ["Mern stack", "Bootstrap", "SQL"], imgUrl: "https://i.ytimg.com/vi/sd0grLQ4voU/maxresdefault.jpg"},
+  {id: 332, place: 2, prize: 300, ownerId: 121, firstName: "Peter", lastName: "Parker", title: "Twitter clone", technologies: ["Asp.net", "React", "SQL"], imgUrl: "https://gtmetrix.com/static/r246/images/home/features-devices.png"},
+  {id:443, place: 3, prize: 100, ownerId: 222, firstName: "Johnathan", lastName: "Jen", title: "Ninja apple", technologies: ["Javascript", "HTML", "CSS"], imgUrl: "https://www.websitetooltester.com/wp-content/uploads/2019/02/website-builders.jpg"},
+  // {place: 4, prize: 20, ownerId: 12, firstName: "Jan", lastName: "Rogan", title: "My love radio", technologies: ["Express.js", "Angular", "Sass"]}
 ];
 
 let topTA = [
