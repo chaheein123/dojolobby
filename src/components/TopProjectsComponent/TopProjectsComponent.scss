@@ -1,7 +1,41 @@
 @import "../../mixins.scss";
+@import "../../utils/globalbs.scss";
 
 .TopProjectsComponent {
   margin-bottom:1.5rem;
   @include view-pages;
+  h5 {
+    margin-bottom: 20px;
+  }
+
+  .top-projects-item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+    .top-projects-item-img {
+      width:  44px;
+      height: 44px;
+      // border: 1px black solid;
+      border-radius: 10px;
+    }
+
+    .top-projects-item-title {
+      margin-left: 12px;
+    }
+
+    .top-projects-item-technologies {
+      display: none;
+      @include media-breakpoint-down(sm){
+        display: block;
+        margin-left: 5px;
+        font-size: 0.8rem;
+        color: rgba(0, 0, 0, 0.280);
+
+      };
+    }
+  }
+
+
 
 }

@@ -32,9 +32,10 @@ let announcements = [
 ];
 
 let topProjects = [ 
-  {place: 1, prize: 500, ownerId: 7, firstName: "Ian", lastName: "Cha"},
-  {place: 2, prize: 300, ownerId: 121, firstName: "Peter", lastName: "Parker"},
-  {place: 3, prize: 100, ownerId: 222, firstName: "Johnathan", lastName: "Jen"},
+  {id: 221, place: 1, prize: 500, ownerId: 7, firstName: "Ian", lastName: "Cha", title: "Minder", technologies: ["Mern stack", "Bootstrap", "SQL"], imgUrl: "https://i.ytimg.com/vi/sd0grLQ4voU/maxresdefault.jpg"},
+  {id: 332, place: 2, prize: 300, ownerId: 121, firstName: "Peter", lastName: "Parker", title: "Twitter clone", technologies: ["Asp.net", "React", "SQL"], imgUrl: "https://gtmetrix.com/static/r246/images/home/features-devices.png"},
+  {id:443, place: 3, prize: 100, ownerId: 222, firstName: "Johnathan", lastName: "Jen", title: "Ninja apple", technologies: ["Javascript", "HTML", "CSS"], imgUrl: "https://www.websitetooltester.com/wp-content/uploads/2019/02/website-builders.jpg"},
+  // {place: 4, prize: 20, ownerId: 12, firstName: "Jan", lastName: "Rogan", title: "My love radio", technologies: ["Express.js", "Angular", "Sass"]}
 ];
 
 let topTA = [

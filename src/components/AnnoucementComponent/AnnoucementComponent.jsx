@@ -40,7 +40,7 @@ const AnnoucementComponent = () => {
         <ul>
           {
             announcements.map((post,index) => (
-              <li key={index} className="annoucement-wrapper" style={{cursor: "pointer"}}>
+              <li key={index} className="annoucement-wrapper">
                 { 
                   post.title.length > 140 ?
                     // <AnnouncementWrapper title={post.title} createdAt={post.createdAt}/>

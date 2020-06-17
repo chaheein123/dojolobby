@@ -1,20 +1,23 @@
 @mixin view-pages {
+  padding: 1rem;
   background-color: white;
   box-shadow: 0 0 1px rgba(122, 113, 113, 0.582);
-  padding: 1rem;
   border-radius: 5px;
   font-size: 0.96rem;
+  font-family: 'Lato', sans-serif;
   h5 {
     font-size: 1.15rem;
+    font-weight: 900;
   }
   .main-font {
-    color: rgba(42, 42, 42, 0.787);
-    font-family: 'Lato', sans-serif;
+    // color: rgba(42, 42, 42, 0.787);
+    color: black;
   }
   .hover-effect {
     &:hover {
-      color: skyblue;
-    }
+      color: rgba(12, 89, 119, 0.568);
+    };
+    cursor: pointer;
   }
 };
 
@@ -24,17 +27,19 @@
   padding: 1rem 0rem 0rem 1rem;
   border-radius: 5px;
   font-size: 0.96rem;
+  font-family: 'Lato', sans-serif;
   h5 {
     font-size: 1.15rem;
+    font-weight: 900;
   }
   .main-font {
-    color: rgba(42, 42, 42, 0.787);
-    font-family: 'Lato', sans-serif;
+    // color: rgba(42, 42, 42, 0.787);
+    color: black;
   }
   .hover-effect {
     &:hover {
-      // color: rgba(0, 0, 0, 0.322);
-      color: rgb(128, 0, 128);
-    }
+      color: rgba(12, 89, 119, 0.568);
+    };
+    cursor: pointer;
   }
-}
+};

@@ -11,7 +11,7 @@ export const TopTenComponent = () => {
       <div className="main-font">
         {
           top10tags.map((comment,index) => (
-            <div key={index}>
+            <div key={index} className="hover-effect">
               {index+1}. #{comment}
             </div>
           ))
