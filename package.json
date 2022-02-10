@@ -14,7 +14,7 @@
     "bootstrap-scss": "4.5.0",
     "breakpoint-sass": "^2.7.1",
     "graphql": "^15.1.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
